@@ -4,49 +4,53 @@ import Title from './components/titulo';
 import Image from './components/imagenes';
 import Details from './components/details';
 function App() {
-  // Recuerda que este es solo un componente funcional, 
-  // tu debes incluir estilos para hacerlo más atractivo
+ 
   return (
     <>
     <div className='rick'>
-      {/* Titulo de el artista/personaje */}
-      <Title
-        title={"Rick Sanchez"}
-      />
-      {/* Imagen de el artista/personaje */}
+
+      <div className='div1'>
       <Image
         url={'Rick.png'} 
       />
-      {/* Detalles de el artista/personaje */}
+    </div>
+    <div className='name1'>
+      <Title
+        title={"Rick Sanchez"}
+      />
+    </div>
       <Details
         genre={'masculino'} 
         status={'vivo'} 
       />
       </div>
       <div className='Summer'>
-            {/* Titulo de el artista/personaje */}
+          <div className='div2'>  
+            <Image
+        url={'./Summer.png'} 
+      />
+</div>
+<div className='name2'>
             <Title
         title={"Summer Smith"}
       />
-      {/* Imagen de el artista/personaje */}
-      <Image
-        url={'./Summer.png'} 
-      />
-      {/* Detalles de el artista/personaje */}
+</div>
       <Details
         genre={'femenino'} 
         status={'vivo'} 
-      />      {/* Titulo de el artista/personaje */}
+      />   
       </div>
       <div className='Jerry'>
+    <div className='div3'>
+      <Image
+        url={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHheEGXxfNHWcwHWMzj6BOs_KLy0lnwBXPfg&s'}
+      />
+      </div>
+      <div className='name3'>
       <Title
         title={"Jerry Smith"}
       />
-      {/* Imagen de el artista/personaje */}
-      <Image
-        url={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHheEGXxfNHWcwHWMzj6BOs_KLy0lnwBXPfg&s'}
-      />    
-      {/* Detalles de el artista/personaje */}
+    </div>
       <Details
         genre={'masculino'} 
         status={'vivo'} 
