@@ -1,0 +1,174 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.imf {
+  width: 10%;
+  height: 70%;
+  margin: 0%;
+  border-radius: 10px;
+}
+h1 {
+  width: 80%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  border: 1px solid #000000aa;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 9px 9px rgb(172, 231, 231);
+  max-width: 300px;
+  margin: 15px;
+  transition: box-shadow 0.3s ease;
+  text-align: center;
+  background-color: greenyellow;
+  color: black;
+  position: relative;
+  border: 5px solid black;
+}
+.sobre {
+  position: relative;
+  top: -40px;
+  border: 3px solid black;
+  width: 100%;
+  border-radius: 80px;
+  background-color: greenyellow;
+  color: blue;
+  line-height: 1.5rem;
+}
+.sobre2 {
+  position: relative;
+  top: -40px;
+  width: 97%;
+  font-size: large;
+  font-family: cursive;
+  color: rgba(36, 92, 22, 0.705);
+  font-size: 1.5rem;
+  font-weight:bold;
+}
+
+.boder {
+  display: flex;
+  flex-wrap: wrap;
+}
+.titulo {
+  width: 100%;
+  margin: 0px 15px 0px 100px;
+  text-align: center;
+  color: #0078d4;
+  font-size: xx-large;
+  font-family: cursive;
+  font-weight: 900px;
+  text-shadow: 7px 3px 2px rgb(159, 220, 245), 0 0 1em rgba(11, 48, 236, 0.703), 
+  0 0 0.12em rgb(250, 248, 248);
+  }
+.cuerpo {
+  width: 120%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  background-image: url(./assets/fondoRick2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.buttons {
+  display: flex;
+}
+button {
+  margin: 20px;
+  width: 150px;
+  border-radius: 50px;
+  border: 3px solid orange;
+  padding: 20px;
+  background-color: green;
+  color: greenyellow;
+}
+.home {
+  color: white;
+}
+.viewEpisode {
+  margin: 35px;
+  background-color: rgb(7, 100, 7);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  text-decoration: overline;
+}
+.containe {
+  position: relative;
+  margin: 5px;
+  padding: 5%;
+  background-color: #4c6846;
+  color: rgb(48, 236, 11);
+  border-radius: 20px 20px 0px 20px;
+  border: 2px solid white;
+  text-align: center;
+}
+.byalejo {
+  width: 50%;
+  margin: 0px 0px 0px 220px;
+  border-radius: 30px;
+  background-color: #0078d4;
+  color: rgb(53, 12, 202);
+  font-weight:bold;
+}
+.pnumber {
+  width: 30px;
+  height: 20px;
+  font-size: 20px;
+  background-color: white;
+  color: red;
+  border-radius: 100%;
+}
+.links {
+  border-radius: 80px;
+  background-color: white;
+  font-size: 25px;
+}
+
